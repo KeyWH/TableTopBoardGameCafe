@@ -1,0 +1,67 @@
+/* CSS Layout Style Sheet for Table Top Cafe */
+
+/* Column Formatting*/
+
+    /* Parent class - will be called for all columns */
+    .col {
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: 0%;
+        padding: 0px 20px;
+        box-sizing: border-box;
+    }
+
+    /* Child classes - will be called with .col as needed */  
+    
+    .col_justify_center {
+        align-items: center;
+    }
+
+    /* col_lg_#: column set up for desktop  */
+    .col_lg_1 {
+        max-width: calc((100% / 12));
+    }
+    
+    .col_lg_2 {
+        max-width: calc((100% / 12)*2);
+    }
+
+    .col_lg_3 {
+        max-width: calc((100% / 12)*3);
+    }
+
+    .col_lg_4 {
+        max-width: calc((100% / 12)*4);
+    }
+
+    .col_lg_5 {
+        max-width: calc((100% / 12)*5);
+    }
+
+    .col_lg_6 {
+        max-width: calc((100% / 12)*6);
+    }
+
+    .col_lg_7 {
+        max-width: calc((100% / 12)*7);
+    }
+
+    .col_lg_8 {
+        max-width: calc((100% / 12)*8);
+    }
+
+    .col_lg_9 {
+        max-width: calc((100% / 12)*9);
+    }
+
+    .col_lg_10 {
+        max-width: calc((100% / 12)*10);
+    }
+
+    .col_lg_11 {
+        max-width: calc((100% / 12)*11);
+    }
+
+    .col_lg_12 {
+        max-width: 100%;
+    }

@@ -1,0 +1,51 @@
+/* CSS Style Sheet for Table Top Cafe */
+
+/* Global Styling */
+
+    :root {
+        /* Colours */
+        --colour_coffee_bean: #271D16;
+        --colour_latte: #B08A6D;
+        --colour_cream: #E3D2CA;
+
+        /* Fonts */
+        --font_heading: "Italiana", sans-serif;
+        --font_body: "Monterrat", sans-serif;
+    }
+
+    body {
+        background-color: var(--colour_coffee_bean);
+    }
+
+    footer {
+        background-color: var(--colour_latte);
+    }
+
+
+
+    /* Text Styling */
+
+        h1 {
+            font-family: var(--font_heading);
+            font-size: 96px;
+            font-weight: 600;
+            font-style: normal;
+        }
+
+        h2 {
+            font-family: var(--font_heading);
+        }
+
+        .h2_logo {
+            font-family: var(--font_body);
+            color: var(--colour_latte);
+            font-size: 28px;
+            font-variant: small-caps;
+
+        }
+
+
+        p {
+        font-family: var(--font_body);
+        font-style: normal;
+        }
