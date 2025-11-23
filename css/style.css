@@ -10,7 +10,7 @@
 
         /* Fonts */
         --font_heading: "Italiana", sans-serif;
-        --font_body: "Monterrat", sans-serif;
+        --font_body: "Montserrat", sans-serif;
     }
 
     body {
@@ -41,7 +41,22 @@
             color: var(--colour_latte);
             font-size: 28px;
             font-variant: small-caps;
+            font-weight: 400;
 
+        }
+
+        h3 {
+            font-family: var(--font_body);
+            color: var(--colour_latte);
+            font-size: 24px;
+            font-kerning: 10%;
+            font-weight: 400;
+            text-transform: uppercase;
+        }
+
+        nav li {
+            list-style: none;
+            text-decoration: none;
         }
 
 
