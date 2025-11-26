@@ -1,8 +1,14 @@
 /* CSS Layout Style Sheet for Table Top Cafe */
 
+/* Row Formatting */
+    /* Parent class - will be called for all instances of row */
+    .row {
+        padding: 0px 80px;
+    }
+
 /* Column Formatting*/
 
-    /* Parent class - will be called for all columns */
+    /* Parent class - will be called for all instances of column */
     .col {
         flex-grow: 1;
         flex-shrink: 1;
