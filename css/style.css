@@ -32,8 +32,21 @@
             font-style: normal;
         }
 
+        .h1_hidden {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            margin: -1px;
+            overflow: hidden;
+            /* clip-path: inset(100%); */
+
+        }
+
         h2 {
             font-family: var(--font_heading);
+            font-size: 64px;
+            font-weight: 200;
+            color: var(--colour_cream)
         }
 
         .h2_logo {
@@ -54,13 +67,51 @@
             text-transform: uppercase;
         }
 
+        p {
+        font-family: var(--font_body);
+        font-size: 24px;
+        font-style: normal;
+        color: var(--colour_latte);
+        }
+
+        /* Header Styling */
+        .clickables {
+            justify-content: space-between;
+
+        }
+
+        /* Nav Bar Styling */
+        nav ul {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            /* justify-content: flex-end; */
+        }
+
         nav li {
             list-style: none;
             text-decoration: none;
         }
 
+        .nav_link {
+            text-decoration: none;
+            font-family: var(--font_body);
+            font-size: 1.3rem;
+            text-transform: uppercase;
+            color: var(--colour_latte);
+        }
 
-        p {
-        font-family: var(--font_body);
-        font-style: normal;
+        .nav_wrap {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        /* Hero Styling */
+        .text_overlay {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
         }
