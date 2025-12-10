@@ -16,6 +16,7 @@
     /* Parent class - will be called for all instances of row */
     .row {
         display: flex;
+
     }
 
     .row_justify_center{
@@ -26,16 +27,14 @@
 
     /* Parent class - will be called for all instances of column */
     .col {
-        flex-grow: 1;
-        flex-shrink: 1;
-        flex-basis: 0%;
+        flex: 1 1 0%;
         padding: 0px 20px;
         box-sizing: border-box;
     }
 
     /* Child classes - will be called with .col as needed */  
     
-    .col_justify_center {
+    .col_align_center {
         align-items: center;
     }
 

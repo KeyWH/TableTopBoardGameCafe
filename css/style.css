@@ -44,9 +44,10 @@
 
         h2 {
             font-family: var(--font_heading);
-            font-size: 64px;
+            font-size: 5rem;
             font-weight: 200;
-            color: var(--colour_cream)
+            color: var(--colour_cream);
+            
         }
 
         .h2_logo {
@@ -69,15 +70,15 @@
 
         p {
         font-family: var(--font_body);
-        font-size: 24px;
+        font-size: 1.6rem;
         font-style: normal;
         color: var(--colour_latte);
         }
 
         /* Header Styling */
         .clickables {
+            padding: 10px 10px;
             justify-content: space-between;
-
         }
 
         /* Nav Bar Styling */
@@ -114,4 +115,8 @@
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
+        }
+
+        .text_center {
+            text-align: center;
         }
