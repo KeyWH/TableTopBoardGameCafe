@@ -12,23 +12,57 @@
         padding: 20px 0px;
     }
 
+/* Justify Utility Classes */
+    .justify_center {
+        justify-content: center;
+    }
+
+    .justify_between {
+        justify-content: space-between;
+    }
+
+    .justify_end {
+        justify-content: end;
+    }
+
+    .justfy_stretch {
+        justify-content: stretch;
+    }
+
+/* Align Utility Classes */
+    .align_center {
+        align-items: center;
+    }
+
 /* Row Formatting */
     /* Parent class - will be called for all instances of row */
     .row {
-        display: flex;
-
+        display: flex;             /* Makes the content run horizontally, instead of vertically */
+        flex-wrap: wrap;           /* Makes the content wrap down if the elements inside are wider than the screen */
+        align-content: stretch;    /* Makes the elements inside grow to the height of the container */
     }
 
     .row_justify_center{
         justify-content: center;
     }
 
+    .row_justify_end {
+        justify-content: end;
+    }
+
+    .row_justify_between {
+        justify-content: space-between;
+    }
+
+    .row_align_items {
+        align-items: center;
+    }
 /* Column Formatting*/
 
     /* Parent class - will be called for all instances of column */
     .col {
         flex: 1 1 0%;
-        padding: 0px 20px;
+        /* padding: 0px 20px; */
         box-sizing: border-box;
     }
 
@@ -37,6 +71,13 @@
     .col_align_center {
         align-items: center;
     }
+
+    .col_justify_between {
+        justify-content: space-between;
+    }
+
+
+
 
     /* col_lg_#: column set up for desktop  */
     .col_lg_1 {

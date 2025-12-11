@@ -21,6 +21,10 @@
         background-color: var(--colour_latte);
     }
 
+    .text_center {
+            text-align: center;
+        }
+
 
 
     /* Text Styling */
@@ -38,31 +42,37 @@
             height: 1px;
             margin: -1px;
             overflow: hidden;
-            /* clip-path: inset(100%); */
 
         }
 
         h2 {
             font-family: var(--font_heading);
-            font-size: 5rem;
+            font-size: 3rem;
             font-weight: 200;
-            color: var(--colour_cream);
+            color: var(--colour_latte);
             
         }
 
+        .h2_hero {
+            font-family: var(--font_heading);
+            font-size: 5rem;
+            font-weight: 200;
+            margin: 3rem 0rem;
+            color: var(--colour_cream);
+
+        }
         .h2_logo {
             font-family: var(--font_body);
             color: var(--colour_latte);
             font-size: 28px;
             font-variant: small-caps;
             font-weight: 400;
-
         }
 
         h3 {
             font-family: var(--font_body);
             color: var(--colour_latte);
-            font-size: 24px;
+            font-size: 1.4rem;
             font-kerning: 10%;
             font-weight: 400;
             text-transform: uppercase;
@@ -70,15 +80,30 @@
 
         p {
         font-family: var(--font_body);
-        font-size: 1.6rem;
+        font-size: 1rem;
         font-style: normal;
         color: var(--colour_latte);
         }
 
+        .p_games {
+            font-family: var(--font_body);
+            font-size: 0.9rem;
+            /* font-style: normal; */
+            color: var(--colour_cream);
+        }
+
+        .p_events {
+            font-family: var(--font_body);
+            font-size: 1.1rem;
+            font-variant: small-caps;
+            color: var(--colour_cream);
+        }
+
         /* Header Styling */
         .clickables {
-            padding: 10px 10px;
+            max-height: 2rem;
             justify-content: space-between;
+            padding: 40px 20px 20px 20px;
         }
 
         /* Nav Bar Styling */
@@ -109,14 +134,32 @@
             align-items: center;
         }
 
-        /* Hero Styling */
-        .text_overlay {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
+/* Index Specific Styles */
+    /* Hero Styling */
+    .text_overlay {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+        /* Hero Carousel */
+        .hero_carousel {
+            background-image: url(../assets/images/image_dropin.png);
+            /* max-width: 100%; */
+            max-height: 50vh;
+            background-size: cover;
         }
 
-        .text_center {
-            text-align: center;
-        }
+.iconography {
+    max-height: 2rem;
+}
+    
+.games {
+    object-fit: cover;
+    width: 100%;
+}
+
+.games_wrap {
+    padding: 20px 20px;
+}
