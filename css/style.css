@@ -4,7 +4,7 @@
 
     :root {
         /* Colours */
-        --colour_coffee_bean: #271D16;
+        --colour_coffee_bean: #1A130F;
         --colour_latte: #B08A6D;
         --colour_cream: #E3D2CA;
 
@@ -27,112 +27,145 @@
 
 
 
-    /* Text Styling */
+/* Text Styling */
 
-        h1 {
-            font-family: var(--font_heading);
-            font-size: 96px;
-            font-weight: 600;
-            font-style: normal;
-        }
-
-        .h1_hidden {
-            position: absolute;
-            width: 1px;
-            height: 1px;
-            margin: -1px;
-            overflow: hidden;
-
-        }
-
-        h2 {
-            font-family: var(--font_heading);
-            font-size: 3rem;
-            font-weight: 200;
-            color: var(--colour_latte);
-            
-        }
-
-        .h2_hero {
-            font-family: var(--font_heading);
-            font-size: 5rem;
-            font-weight: 200;
-            margin: 3rem 0rem;
-            color: var(--colour_cream);
-
-        }
-        .h2_logo {
-            font-family: var(--font_body);
-            color: var(--colour_latte);
-            font-size: 28px;
-            font-variant: small-caps;
-            font-weight: 400;
-        }
-
-        h3 {
-            font-family: var(--font_body);
-            color: var(--colour_latte);
-            font-size: 1.4rem;
-            font-kerning: 10%;
-            font-weight: 400;
-            text-transform: uppercase;
-        }
-
-        p {
-        font-family: var(--font_body);
-        font-size: 1rem;
+    h1 {
+        font-family: var(--font_heading);
+        font-size: 96px;
+        font-weight: 600;
         font-style: normal;
+    }
+
+    .h1_hidden {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+
+    }
+
+    h2 {
+        font-family: var(--font_heading);
+        font-size: 3rem;
+        font-weight: 200;
         color: var(--colour_latte);
-        }
+        
+    }
 
-        .p_games {
-            font-family: var(--font_body);
-            font-size: 0.9rem;
-            /* font-style: normal; */
-            color: var(--colour_cream);
-        }
+    .h2_hero {
+        font-family: var(--font_heading);
+        font-size: 5rem;
+        font-weight: 200;
+        margin: 3rem 0rem;
+        color: var(--colour_cream);
 
-        .p_events {
-            font-family: var(--font_body);
-            font-size: 1.1rem;
-            font-variant: small-caps;
-            color: var(--colour_cream);
-        }
+    }
+    .h2_logo {
+        font-family: var(--font_body);
+        color: var(--colour_latte);
+        font-size: 28px;
+        font-variant: small-caps;
+        font-weight: 400;
+    }
 
-        /* Header Styling */
-        .clickables {
-            max-height: 2rem;
-            justify-content: space-between;
-            padding: 40px 20px 20px 20px;
-        }
+    h3 {
+        font-family: var(--font_body);
+        color: var(--colour_latte);
+        font-size: 1.4rem;
+        font-kerning: 10%;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
 
-        /* Nav Bar Styling */
-        nav ul {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            /* justify-content: flex-end; */
-        }
+    .h3_footer {
+        color: var(--colour_coffee_bean);
+    }
 
-        nav li {
-            list-style: none;
-            text-decoration: none;
-        }
+    p {
+    font-family: var(--font_body);
+    font-size: 1rem;
+    font-style: normal;
+    color: var(--colour_latte);
+    }
 
-        .nav_link {
-            text-decoration: none;
-            font-family: var(--font_body);
-            font-size: 1.3rem;
-            text-transform: uppercase;
-            color: var(--colour_latte);
-        }
+    .p_games {
+        font-family: var(--font_body);
+        font-size: 1.1rem;
+        font-weight: 300;
+        /* font-style: normal; */
+        color: var(--colour_cream);
+    }
 
-        .nav_wrap {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            align-items: center;
-        }
+    .p_events {
+        font-family: var(--font_body);
+        font-size: 1.3rem;
+        font-variant: small-caps;
+        color: var(--colour_cream);
+    }
+
+    .p_footer {
+        font-family: var(--font_body);
+        font-size: 1.1rem;
+        font-weight: 600;
+        color: var(--colour_coffee_bean);
+    }
+
+/* Header Styling */
+    .clickables {
+        max-height: 2rem;
+        justify-content: space-between;
+        padding: 40px 20px 20px 20px;
+    }
+
+/* Nav Bar Styling */
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    nav li {
+        list-style: none;
+        text-decoration: none;
+    }
+
+    .nav_link {
+        text-decoration: none;
+        font-family: var(--font_body);
+        font-size: 1.3rem;
+        text-transform: uppercase;
+        color: var(--colour_latte);
+    }
+
+    .nav_wrap {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .hamburger {
+        width: 30px;
+        height: 20px;
+        display: none;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+/* Footer Styling */
+    .footer_margin {
+        margin: 0px 10px;
+    }
+
+    .footer_logo {
+        max-width: 7rem;
+        margin: 20px 0px;
+    }
+
+    .footer_icons {
+        max-width: 0.9rem;
+    }
 
 /* Index Specific Styles */
     /* Hero Styling */
@@ -162,4 +195,12 @@
 
 .games_wrap {
     padding: 20px 20px;
+}
+
+@media screen and (max-width: 478px) {
+
+    .hamburger {
+		display: flex;
+	}
+
 }
