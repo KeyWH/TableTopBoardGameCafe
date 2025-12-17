@@ -13,6 +13,9 @@
     }
 
 /* Justify Utility Classes */
+    .justfy_start{
+        justify-content: start;
+    }
     .justify_center {
         justify-content: center;
     }
@@ -30,6 +33,10 @@
     }
 
 /* Align Utility Classes */
+    .align_start {
+        align-items: start;
+    }
+
     .align_center {
         align-items: center;
     }
@@ -38,6 +45,10 @@
         align-items: end;
     }
 
+    .align_between {
+        /* align-items: stretch; */
+        align-content: space-between;
+    }
 /* Miscellaneous Utility Classes */
 
 
@@ -51,7 +62,7 @@
     }
 
     .row_gap {
-        gap: 20px 0px;
+        gap: 20px;
     }
 
 
@@ -60,8 +71,8 @@
     /* Parent class - will be called for all instances of column */
     .col {
         flex: 1 1 0%;
-        /* padding: 0px 20px; */
         box-sizing: border-box;
+
     }
 
     /* col_lg_#: column set up for desktop  */
